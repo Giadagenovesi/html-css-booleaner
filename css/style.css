@@ -7,16 +7,24 @@
 
 /* common */
 
+
 /* header */
-.container{
-    background-image:url(../img/pattern.png);
-    background-color: rgb(85, 148, 225);
-    
-    
+
+header{
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    background-color: rgb(72, 72, 223);
+    display: block;
+}
+
+.logo-header{
+    width: 20%;
+    margin-left:10px;
+    margin-top: 20px;
+
 }
 /* /header */
 
-/* main */
 /* title section */
 
     .title-container{
@@ -43,6 +51,7 @@
     }
 /* end of title section */
 
+/* main */
 .image-container{
     margin-bottom: 20px;
 }
@@ -59,7 +68,6 @@
     margin-bottom: 20px;
 }
 
-
 thead{
     background-color: rgb(0, 166, 255);
     color: white;
@@ -75,6 +83,52 @@ thead{
     margin-bottom: 20px;
 }
 
+main{
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
 /* /main */
 
 /* footer */
+.suggested{
+    color: grey;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pc-image{
+    width: 300px;
+    height: 200px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-image: url(../img/monitor.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    padding-top: 10px;
+
+}
+
+.graphic-image{
+    width: 300px;
+    height: 200px;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    background-image: url(../img/graph.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+
+}
+
+footer{
+    margin-left: 10px;
+}
