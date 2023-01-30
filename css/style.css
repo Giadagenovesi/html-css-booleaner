@@ -9,6 +9,13 @@
 /* common */
 
 /* header */
+.container{
+    background-image:url(../img/pattern.png);
+    background-color: rgb(85, 148, 225);
+    
+    
+}
+/* /header */
 
 /* main */
 
