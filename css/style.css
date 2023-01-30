@@ -18,5 +18,34 @@
 /* /header */
 
 /* main */
+/* title section */
+
+    .title-container{
+        margin-top: 20px;
+    }
+
+    .main-title{
+        font-size: 3rem;
+    }
+
+    .subtitle{
+        font-size: 1,5rem;
+        font-weight: bold;
+        color: gray;   
+    }
+
+    .date{
+        font-size: 12px;
+        color: gray;
+    }
+
+    .writer{
+        color: rgb(46, 169, 222);
+    }
+/* end of title section */
+
+
+/* /main */
+
 
 /* footer */
