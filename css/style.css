@@ -72,6 +72,11 @@ header{
 
 .table-container{
     margin-top: 20px;
+    width: 100%;
+}
+
+.thin-column{
+    width:25%;
 }
 
 thead{
@@ -92,7 +97,6 @@ thead{
 main{
     margin-left: 10px;
     margin-right: 10px;
-
 }
 
 /* /main */
