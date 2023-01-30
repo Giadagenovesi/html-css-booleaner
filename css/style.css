@@ -1,7 +1,6 @@
 
 /* reset */
 *{
-    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -43,6 +42,15 @@
         color: rgb(46, 169, 222);
     }
 /* end of title section */
+
+.image-container{
+    margin-bottom: 20px;
+}
+
+.important-text{
+    background-color: yellow;
+}
+
 
 
 /* /main */
