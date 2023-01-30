@@ -6,7 +6,9 @@
 }
 
 /* common */
-
+body{
+    width: 70%;
+}
 
 /* header */
 
@@ -53,11 +55,11 @@ header{
 
 /* main */
 .image-container{
-    margin-bottom: 20px;
+    margin-top: 20px; 
 }
 
 .first-paragraph{
-    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .important-text{
@@ -65,7 +67,11 @@ header{
 }
 
 .list-container{
-    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.table-container{
+    margin-top: 20px;
 }
 
 thead{
@@ -110,7 +116,6 @@ main{
     background-repeat: no-repeat;
     margin-top: 10px;
     padding-top: 10px;
-
 }
 
 .graphic-image{
@@ -126,7 +131,6 @@ main{
     margin-top: 10px;
     margin-bottom: 20px;
     padding-top: 10px;
-
 }
 
 footer{
