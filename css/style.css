@@ -2,25 +2,30 @@
 /* reset */
 *{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
 /* common */
 body{
     width: 70%;
+    margin: 0 auto;
 }
 
 /* header */
 
 header{
     background-image: url(../img/pattern.png);
-    background-size: contain;
-    background-color: rgb(72, 72, 223);
+    background-size: 30%;
+    background-color: rgb(46, 169, 222);
     display: block;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
 
 .logo-header{
-    width: 20%;
+    width: 15%;
     margin-left:10px;
     margin-top: 20px;
 
@@ -39,8 +44,8 @@ header{
 
     .subtitle{
         font-size: 1,5rem;
-        font-weight: bold;
-        color: gray;   
+        color: gray; 
+        margin-top: 15px;  
     }
 
     .date{
@@ -58,7 +63,7 @@ header{
     margin-top: 20px; 
 }
 
-.first-paragraph{
+.article-section{
     margin-top: 20px;
 }
 
@@ -68,11 +73,15 @@ header{
 
 .list-container{
     margin-top: 20px;
+    margin: 15px;
 }
 
 .table-container{
     margin-top: 20px;
-    width: 100%;
+    width: 100%;  
+}
+table{
+    border-collapse: collapse;
 }
 
 .thin-column{
@@ -105,35 +114,33 @@ main{
 .suggested{
     color: grey;
     font-size: 18px;
-    font-weight: bold;
 }
 
 .pc-image{
     width: 300px;
-    height: 200px;
+    height: 300px;
     font-size: 1.5rem;
     font-weight: bold;
     color: white;
     text-align: center;
     background-image: url(../img/monitor.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     margin-top: 10px;
     padding-top: 10px;
 }
 
 .graphic-image{
     width: 300px;
-    height: 200px;
+    height: 300px;
     font-size: 1.5rem;
     font-weight: bold;
     color: white;
     text-align: center;
     background-image: url(../img/graph.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-top: 10px;
-    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
     padding-top: 10px;
 }
 
